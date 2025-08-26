@@ -36,6 +36,13 @@
 </p>
 
 ---
+### 🧠 Python & AI Tools I Use
+
+- `pandas` · `numpy` · `matplotlib` · `seaborn` · `scikit-learn` · `xgboost` · `lightgbm` · `optuna`
+- `openai` · `langchain` · `transformers` · `whisper` · `tiktoken`
+- `flask` · `fastapi` · `sqlalchemy` · `requests`
+
+---
 
 ### 📊 GitHub Stats
 
