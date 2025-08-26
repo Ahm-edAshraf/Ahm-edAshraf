@@ -53,6 +53,4 @@
 
 ---
 
-<p align="center">
-  <i>“Learning by building. One MVP at a time.”</i>
-</p>
+
