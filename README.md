@@ -9,7 +9,7 @@
 
 ### 🧩 About Me
 
-- 🌍 Based in: Saudi Arabia  
+- 🌍 Based in: KAEC, Saudi Arabia  / Kuala Lumpur, Malaysia
 - 🛠 Tech: `Next.js`, `Supabase`, `Tailwind`, `Node.js`, `Express`, `Python`, `TypeScript`
 - 🔬 Interests: AI automation, smart UIs, ML tools, real-time apps
 - 🎯 Current goals: Build MVPs that feel like startups
