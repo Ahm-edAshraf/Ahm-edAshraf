@@ -57,7 +57,7 @@
 
 - 💬 DM me on Discord: `luhahmed`
 - 📧 Email: `ahmedashrafyas@gmail.com`
-
+- 🔗 LinkedIn: https://www.linkedin.com/in/ahmed-ashraf-5ab7bb334/
 ---
 
 
