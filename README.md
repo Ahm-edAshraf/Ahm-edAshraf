@@ -48,8 +48,8 @@
 
 ### 📬 Get in Touch
 
-- 💬 DM me on Discord: `ahmedcodes`
-- 📧 Email: `ahmedashraf@protonmail.com`
+- 💬 DM me on Discord: `luhahmed`
+- 📧 Email: `ahmedashrafyas@gmail.com`
 
 ---
 
