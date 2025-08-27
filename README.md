@@ -18,6 +18,9 @@
 
 ### 🔥 Featured Projects
 
+#### 🎯 [Resume-Job Matching with NLP](https://github.com/Ahm-edAshraf/resume-parser) ⭐ **NEW**
+> Production-ready Google Colab notebook for intelligent resume-job matching using advanced NLP. Features KeyBERT keyword extraction, Sentence Transformers semantic similarity, PDF processing, and comprehensive visualizations. Built with Python, spaCy, scikit-learn.
+
 #### 🚀 [AI Code Reviewer](https://github.com/Ahm-edAshraf/ai-code-reviewer)
 > Uses Gemini API to review PRs, suggest improvements, and comment automatically via GitHub webhooks. Built with Python + Flask.
 
@@ -39,17 +42,32 @@
 ### 🧠 Python & AI Tools I Use
 
 - `pandas` · `numpy` · `matplotlib` · `seaborn` · `scikit-learn` · `xgboost` · `lightgbm` · `optuna`
-- `openai` · `langchain` · `transformers` · `whisper` · `tiktoken`
-- `flask` · `fastapi` · `sqlalchemy` · `requests`
+- `openai` · `langchain` · `transformers` · `whisper` · `tiktoken` · `spacy` · `keybert` · `sentence-transformers`
+- `flask` · `fastapi` · `sqlalchemy` · `requests` · `pymupdf` · `pdfplumber`
 
 ---
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ahm-edAshraf&show_icons=true&theme=radical" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahm-edAshraf&layout=compact&theme=radical" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Ahm-edAshraf&show_icons=true&theme=radical&cache_seconds=1800" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahm-edAshraf&layout=compact&theme=radical&cache_seconds=1800" height="180" />
 </p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ahm-edAshraf&theme=radical&hide_border=false" height="180" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Ahm-edAshraf&theme=radical&no-frame=false&no-bg=false&margin-w=4" />
+</p>
+
+---
+
+### 📈 Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
@@ -61,3 +79,6 @@
 
 ---
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Ahm-edAshraf&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+</p>
