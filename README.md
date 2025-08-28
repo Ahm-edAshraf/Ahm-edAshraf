@@ -18,7 +18,10 @@
 
 ### 🔥 Featured Projects
 
-#### 🎯 [Resume-Job Matching with NLP](https://github.com/Ahm-edAshraf/resume-parser) ⭐ **NEW**
+#### 🚗 [NCR Ride Booking Analytics](https://github.com/Ahm-edAshraf/streamlit-uber-dataset-prediction) ⭐ **NEW**
+> Full-stack analytics application for ride completion prediction using LightGBM ML model. Features interactive dashboards with 12+ visualizations, real-time predictions with smart defaults, and comprehensive model insights (98.3% AUC). Built with Streamlit, Python, Plotly, and advanced feature engineering.
+
+#### 🎯 [Resume-Job Matching with NLP](https://github.com/Ahm-edAshraf/resume-parser) 
 > Production-ready Google Colab notebook for intelligent resume-job matching using advanced NLP. Features KeyBERT keyword extraction, Sentence Transformers semantic similarity, PDF processing, and comprehensive visualizations. Built with Python, spaCy, scikit-learn.
 
 #### 🚀 [AI Code Reviewer](https://github.com/Ahm-edAshraf/ai-code-reviewer)
