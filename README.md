@@ -21,10 +21,8 @@
 
 ---
 
-### Featured Projects
-
 #### [FactoryPulse Lite](https://github.com/Ahm-edAshraf/FactoryPulse-Lite)
-Predictive maintenance platform for machine failure forecasting and maintenance planning. Built to estimate Remaining Useful Life (RUL), classify machine health, detect degradation change-points, benchmark on NASA CMAPSS data, and present operator-friendly insights through an interactive dashboard.
+Predictive maintenance platform built for **V HACK 2026 (USM) Case Study 1: Predictive Maintenance for SME Resilience**. Designed to help small and medium enterprises reduce downtime by estimating Remaining Useful Life (RUL), classifying machine health, detecting degradation change-points, and translating sensor data into actionable maintenance insights through an interactive dashboard.
 
 **Tech:** `Python` `XGBoost` `Streamlit` `Plotly` `pandas` `ruptures`
 
