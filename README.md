@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>19-year-old Full-Stack Developer</strong><br>
-  Crafting production-ready applications with modern web technologies and machine learning
+  Building production-ready applications across full-stack web development, AI, and applied machine learning
 </p>
 
 <p align="center">
@@ -16,45 +16,54 @@
 ### About Me
 
 - Based in **KAEC, Saudi Arabia** and **Kuala Lumpur, Malaysia**
-- Focused on **AI automation**, **smart UIs**, **ML tools**, and **real-time applications**
-- Currently building **MVPs that feel like startups**
+- Focused on **full-stack products**, **AI automation**, **smart UIs**, and **applied machine learning**
+- Interested in building tools that solve real user and business problems
 
 ---
 
 ### Featured Projects
 
+#### [FactoryPulse Lite](https://github.com/Ahm-edAshraf/FactoryPulse-Lite)
+Predictive maintenance platform for machine failure forecasting and maintenance planning. Built to estimate Remaining Useful Life (RUL), classify machine health, detect degradation change-points, benchmark on NASA CMAPSS data, and present operator-friendly insights through an interactive dashboard.
+
+**Tech:** `Python` `XGBoost` `Streamlit` `Plotly` `pandas` `ruptures`
+
+---
+
 #### [NCR Ride Booking Analytics](https://github.com/Ahm-edAshraf/streamlit-uber-dataset-prediction)
-Full-stack analytics application for ride completion prediction using LightGBM ML model. Features 12+ interactive visualizations, real-time predictions with smart defaults, and comprehensive model insights achieving **98.3% AUC**. Built with Streamlit, Python, Plotly, and Pandas.
+Analytics and machine learning application for ride completion prediction using 150,000+ booking records. Features interactive dashboards, real-time prediction, model insights, and a LightGBM pipeline achieving **98.3% AUC** and **96.4% F1**.
 
 **Tech:** `Python` `Streamlit` `LightGBM` `Plotly` `Pandas`
 
 ---
 
-#### [Resume-Job Matching with NLP](https://github.com/Ahm-edAshraf/resume-parser)
-Production-ready Google Colab notebook for intelligent resume-job matching using advanced NLP. Features KeyBERT keyword extraction, Sentence Transformers semantic similarity, PDF processing, and comprehensive visualizations.
-
-**Tech:** `Python` `spaCy` `KeyBERT` `Sentence Transformers` `scikit-learn`
-
----
-
-#### [AI Code Reviewer](https://github.com/Ahm-edAshraf/ai-code-reviewer)
-Automated code review assistant that analyzes pull requests using Google's Gemini AI. Posts structured feedback with severity levels directly on GitHub PRs via webhooks.
-
-**Tech:** `Python` `Flask` `Gemini API` `GitHub API`
-
----
-
 #### [FormAI](https://github.com/Ahm-edAshraf/FormAi) | [Live Demo](https://ai-form-builder-ten-xi.vercel.app)
-AI-powered form builder that generates, customizes, and validates forms from natural language prompts. Features drag-and-drop editing, one-click publishing, file uploads, and Stripe billing integration.
+AI-powered form builder that generates forms from natural language prompts and supports drag-and-drop editing, publishing, file uploads, response collection, and Stripe billing.
 
 **Tech:** `Next.js` `TypeScript` `Tailwind` `Supabase` `Gemini AI` `Stripe`
 
 ---
 
 #### [APU Student Helper](https://github.com/Ahm-edAshraf/apu-student-help) | [Live Demo](https://apu-helper.vercel.app)
-Intelligent study companion for university students featuring AI-powered chat (Gemini), task tracking, study time analytics, document vault with PDF processing, and PWA support.
+Intelligent study companion for university students with AI-powered academic assistance, task and deadline tracking, study analytics, document handling, and PWA support.
 
 **Tech:** `Next.js 15` `React 19` `TypeScript` `Supabase` `Gemini AI` `Tailwind`
+
+---
+
+#### [AI Code Reviewer](https://github.com/Ahm-edAshraf/ai-code-reviewer)
+Automated code review assistant that analyzes pull requests with Gemini AI and posts structured feedback on bugs, code quality, performance, and security directly on GitHub.
+
+**Tech:** `Python` `Flask` `Gemini API` `GitHub API`
+
+---
+
+### Other Notable Work
+
+#### [Resume-Job Matching with NLP](https://github.com/Ahm-edAshraf/resume-parser)
+NLP pipeline for intelligent resume-job matching using KeyBERT, Sentence Transformers, PDF processing, semantic similarity scoring, and skill-gap analysis.
+
+**Tech:** `Python` `spaCy` `KeyBERT` `Sentence Transformers` `scikit-learn`
 
 ---
 
@@ -72,7 +81,7 @@ Intelligent study companion for university students featuring AI-powered chat (G
 
 **AI/ML:** LightGBM, XGBoost, scikit-learn, spaCy, KeyBERT, Sentence Transformers, LangChain, OpenAI, Gemini
 
-**Data:** Pandas, NumPy, Matplotlib, Seaborn, Plotly
+**Data:** Pandas, NumPy, Matplotlib, Plotly
 
 ---
 
