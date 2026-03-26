@@ -35,14 +35,14 @@ Analytics and machine learning application for ride completion prediction using 
 
 ---
 
-#### [FormAI](https://github.com/Ahm-edAshraf/FormAi) | [Live Demo](https://ai-form-builder-ten-xi.vercel.app)
+#### [FormAI](https://github.com/Ahm-edAshraf/FormAi) | [Live Demo](https://formai-ten.vercel.app/)
 AI-powered form builder that generates forms from natural language prompts and supports drag-and-drop editing, publishing, file uploads, response collection, and Stripe billing.
 
 **Tech:** `Next.js` `TypeScript` `Tailwind` `Supabase` `Gemini AI` `Stripe`
 
 ---
 
-#### [APU Student Helper](https://github.com/Ahm-edAshraf/apu-student-help) | [Live Demo](https://apu-helper.vercel.app)
+#### [APU Student Helper](https://github.com/Ahm-edAshraf/apu-student-help) 
 Intelligent study companion for university students with AI-powered academic assistance, task and deadline tracking, study analytics, document handling, and PWA support.
 
 **Tech:** `Next.js 15` `React 19` `TypeScript` `Supabase` `Gemini AI` `Tailwind`
