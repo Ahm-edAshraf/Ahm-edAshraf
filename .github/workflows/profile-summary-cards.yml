@@ -1,0 +1,39 @@
+name: Update profile summary cards
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-summary-cards.yml"
+      - "README.md"
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-summary-cards
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    name: Generate GitHub profile cards
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Generate and commit cards
+        uses: vn7n24fzkq/github-profile-summary-cards@eda120aff352e7438ecf2b3a67e7eda2deb9fe2a # release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 8
+          AUTO_PUSH: true
+          THEME: github_dark
