@@ -28,31 +28,31 @@
 
 ### [FactoryPulse Lite](https://github.com/Ahm-edAshraf/FactoryPulse-Lite)
 
-Predictive-maintenance platform created for **V HACK 2026**. Estimates remaining useful life, classifies machine health, detects degradation change points, and turns sensor data into actionable maintenance insights.
+Predictive-maintenance dashboard created for **V HACK USM 2026** and benchmarked on NASA CMAPSS FD001. Predicts remaining useful life, scores machine health, detects degradation change points, surfaces sensor drivers, and prioritizes maintenance actions.
 
-`Python` `XGBoost` `Streamlit` `Plotly` `pandas` `ruptures`
+`Python` `XGBoost` `Streamlit` `Plotly` `pandas` `ruptures` `SHAP`
 
 ### [FormAI](https://github.com/Ahm-edAshraf/FormAi) &middot; [Live demo](https://formai-ten.vercel.app/)
 
-AI-powered form builder that generates forms from natural-language prompts. Includes drag-and-drop editing, publishing, file uploads, response collection, and Stripe billing.
+AI-powered form builder that turns plain-English prompts into structured drafts. Supports visual editing, personal and organization workspaces, immutable public snapshots, response analytics, and CSV exports.
 
-`Next.js` `TypeScript` `Tailwind CSS` `Supabase` `Gemini` `Stripe`
+`Next.js 16` `React 19` `TypeScript` `Tailwind CSS 4` `Convex` `Clerk` `Groq`
 
 ### [NCR Ride Booking Analytics](https://github.com/Ahm-edAshraf/streamlit-uber-dataset-prediction)
 
-Analytics and machine-learning application built around more than 150,000 booking records. Includes interactive dashboards, real-time prediction, model explainability, and a LightGBM pipeline.
+Analytics and machine-learning application built around more than 150,000 NCR booking records. Combines KPI dashboards and data exploration with real-time ride-completion predictions; its LightGBM model reports 98.3% AUC across 368 engineered features.
 
-`Python` `Streamlit` `LightGBM` `Plotly` `pandas`
+`Python` `Streamlit` `LightGBM` `scikit-learn` `Plotly` `pandas`
 
 ### [APU Student Helper](https://github.com/Ahm-edAshraf/apu-student-help)
 
-AI-powered study companion with academic assistance, deadline tracking, study analytics, document handling, and Progressive Web App support.
+Study companion for APU students with Gemini-powered chat, task and study-time tracking, timetable and deadline management, and a document vault that processes PDFs, images, documents, and ZIP archives. Includes PWA and offline support.
 
 `Next.js 15` `React 19` `TypeScript` `Supabase` `Gemini` `Tailwind CSS`
 
 ### [AI Code Reviewer](https://github.com/Ahm-edAshraf/ai-code-reviewer)
 
-Automated pull-request reviewer that uses Gemini to identify bugs, code-quality issues, performance concerns, and security risks, then posts structured feedback to GitHub.
+GitHub App that responds to pull-request webhooks, analyzes chunked diffs with Gemini, categorizes findings by severity, and posts structured review comments directly on pull requests.
 
 `Python` `Flask` `Gemini API` `GitHub API`
 
@@ -60,9 +60,9 @@ Automated pull-request reviewer that uses Gemini to identify bugs, code-quality 
 <summary><strong>More work</strong></summary>
 <br>
 
-**[Resume-Job Matching with NLP](https://github.com/Ahm-edAshraf/resume-parser)** - NLP pipeline for resume-to-job matching using keyword extraction, semantic embeddings, PDF processing, similarity scoring, and skill-gap analysis.
+**[Resume-Job Matching with NLP](https://github.com/Ahm-edAshraf/resume-parser)** - Colab-ready NLP notebook for matching resumes to job descriptions through keyword extraction, semantic embeddings, PDF parsing, weighted similarity scoring, and skill-gap analysis.
 
-`Python` `spaCy` `KeyBERT` `Sentence Transformers` `scikit-learn`
+`Python` `spaCy` `KeyBERT` `Sentence Transformers` `scikit-learn` `PyMuPDF`
 
 </details>
 
