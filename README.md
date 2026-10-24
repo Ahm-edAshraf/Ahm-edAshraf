@@ -1,119 +1,89 @@
-<!-- Upload this README and the assets folder to Ahm-edAshraf/Ahm-edAshraf. -->
-<p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Ahmed Ashraf. Full-stack developer and AI builder. Good ideas deserve great execution.">
-</p>
+<img src="./assets/header.svg" width="100%" alt="Ahmed Ashraf">
 
-<p align="center">
-  <a href="https://ahm-edashraf.github.io/portofolio/"><img src="https://img.shields.io/badge/PORTFOLIO-5EEAD4?style=for-the-badge&amp;logo=githubpages&amp;logoColor=080C16" alt="Portfolio"></a>
-  &nbsp;
-  <a href="mailto:ahmedashrafyas@gmail.com"><img src="https://img.shields.io/badge/LET'S_TALK-181F30?style=for-the-badge&amp;logo=gmail&amp;logoColor=5EEAD4" alt="Email Ahmed"></a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/ahmed-ashraf-5ab7bb334/"><img src="https://img.shields.io/badge/LINKEDIN-181F30?style=for-the-badge&amp;logo=linkedin&amp;logoColor=A5B4FC" alt="LinkedIn"></a>
-</p>
+[Portfolio](https://ahm-edashraf.github.io/portofolio/) &nbsp; / &nbsp; [Email](mailto:ahmedashrafyas@gmail.com) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/ahmed-ashraf-5ab7bb334/)
 
-<p align="center"><sub>FULL-STACK DEVELOPMENT &nbsp; / &nbsp; AI AUTOMATION &nbsp; / &nbsp; APPLIED MACHINE LEARNING</sub></p>
+I'm a Computer Science student specializing in Data Analytics. I work on web apps, AI automation, and applied ML. Based between Kuala Lumpur, Malaysia and KAEC, Saudi Arabia.
 
-## A little context
+### Selected projects
 
-Hey, I'm **Ahmed** — a Computer Science student specializing in **Data Analytics**, based between **Kuala Lumpur 🇲🇾** and **KAEC 🇸🇦**.
+**[FactoryPulse Lite](https://github.com/Ahm-edAshraf/FactoryPulse-Lite)**
 
-I like building things you can actually use: a form from a sentence, a maintenance decision from sensor readings, a code review from a pull request. My work connects web development, AI automation, and applied machine learning.
+Predictive-maintenance dashboard built for V HACK USM 2026, benchmarked on NASA CMAPSS FD001. Estimates remaining useful life, tracks machine health, and helps prioritize maintenance.
 
-## Things I've built
+<sub>Python · XGBoost · Streamlit · Plotly · SHAP</sub>
 
-<table>
-<tr>
-<td width="50%"><a href="https://github.com/Ahm-edAshraf/FactoryPulse-Lite"><img src="./assets/factorypulse.svg" width="100%" alt="FactoryPulse Lite — Know what needs attention. Before the machine stops."></a></td>
-<td width="50%"><a href="https://github.com/Ahm-edAshraf/FormAi"><img src="./assets/formai.svg" width="100%" alt="FormAI — Describe it. Edit it. Publish it. Forms that start with a sentence."></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/Ahm-edAshraf/streamlit-uber-dataset-prediction"><img src="./assets/ride-analytics.svg" width="100%" alt="NCR Ride Analytics — 150K+ bookings. A clearer picture of every ride."></a></td>
-<td width="50%"><a href="https://github.com/Ahm-edAshraf/apu-student-help"><img src="./assets/student-helper.svg" width="100%" alt="APU Student Helper — Your semester, in one place. Chat, plan, study, repeat."></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/Ahm-edAshraf/ai-code-reviewer"><img src="./assets/code-reviewer.svg" width="100%" alt="AI Code Reviewer — From pull request to review. AI feedback, where you work."></a></td>
-<td width="50%"><a href="https://github.com/Ahm-edAshraf/resume-parser"><img src="./assets/resume-matcher.svg" width="100%" alt="Resume–Job Matching — Find the fit. Spot the gaps. Semantic matching for resumes."></a></td>
-</tr>
-</table>
+**[FormAI](https://github.com/Ahm-edAshraf/FormAi)** · [demo](https://formai-ten.vercel.app/)
 
-<p align="center"><a href="https://formai-ten.vercel.app/"><strong>Take FormAI for a spin ↗</strong></a></p>
+A form builder that turns plain-English prompts into editable drafts. Includes personal and team workspaces, published snapshots, response analytics, and CSV exports.
+
+<sub>Next.js · React · TypeScript · Convex · Clerk · Groq</sub>
+
+**[NCR Ride Booking Analytics](https://github.com/Ahm-edAshraf/streamlit-uber-dataset-prediction)**
+
+Booking analytics and ride-completion predictions built around 150,000+ NCR records, with interactive dashboards and a LightGBM model.
+
+<sub>Python · Streamlit · LightGBM · scikit-learn · Plotly</sub>
 
 <details>
-<summary><strong>Under the hood — project details &amp; full stacks</strong></summary>
-
+<summary>More projects</summary>
 <br>
 
-- **FactoryPulse Lite:** remaining useful life estimation, machine-health scoring, degradation change-point detection, sensor-driver analysis, and maintenance prioritization. Built with Python, XGBoost, Streamlit, Plotly, pandas, ruptures, and SHAP.
-- **FormAI:** visual editing, personal and organization workspaces, immutable public snapshots, response analytics, and CSV exports. Built with Next.js 16, React 19, TypeScript, Tailwind CSS 4, Convex, Clerk, and Groq.
-- **NCR Ride Booking Analytics:** more than 150,000 booking records and 368 engineered features; the project reports **98.3% AUC** for its LightGBM model. Built with Python, Streamlit, LightGBM, scikit-learn, Plotly, and pandas.
-- **APU Student Helper:** a document vault that processes PDFs, images, documents, and ZIP archives alongside study and scheduling tools. Built with Next.js 15, React 19, TypeScript, Supabase, Gemini, and Tailwind CSS.
+**[APU Student Helper](https://github.com/Ahm-edAshraf/apu-student-help)**
+
+Gemini-powered study chat, task and study-time tracking, timetables, deadlines, and a document vault. Supports PDFs, images, documents, and ZIP archives, with PWA and offline support.
+
+<sub>Next.js 15 · React 19 · TypeScript · Supabase · Gemini · Tailwind CSS</sub>
+
+**[AI Code Reviewer](https://github.com/Ahm-edAshraf/ai-code-reviewer)**
+
+A GitHub App that reviews pull requests with Gemini. Processes webhook events, analyzes chunked diffs, and posts comments categorized by severity.
+
+<sub>Python · Flask · Gemini API · GitHub API</sub>
+
+**[Resume–Job Matching with NLP](https://github.com/Ahm-edAshraf/resume-parser)**
+
+A Colab-ready notebook for comparing resumes with job descriptions. Uses keyword extraction, semantic embeddings, PDF parsing, weighted similarity scores, and skill-gap analysis.
+
+<sub>Python · spaCy · KeyBERT · Sentence Transformers · scikit-learn · PyMuPDF</sub>
 
 </details>
 
-
 <details>
-<summary><strong>Developer tools &amp; NLP experiments</strong></summary>
+<summary>Technical details</summary>
 <br>
 
-**[AI Code Reviewer](https://github.com/Ahm-edAshraf/ai-code-reviewer)** — GitHub App that responds to pull-request webhooks, analyzes chunked diffs with Gemini, categorizes findings by severity, and posts structured review comments directly on pull requests.
-
-`Python` `Flask` `Gemini API` `GitHub API`
-
-**[Resume–Job Matching with NLP](https://github.com/Ahm-edAshraf/resume-parser)** — Colab-ready notebook with keyword extraction, semantic embeddings, PDF parsing, weighted similarity scoring, and skill-gap analysis.
-
-`Python` `spaCy` `KeyBERT` `Sentence Transformers` `scikit-learn` `PyMuPDF`
+- FactoryPulse Lite also detects degradation change points and surfaces sensor drivers, using pandas and ruptures alongside the tools above.
+- FormAI uses Next.js 16, React 19, and Tailwind CSS 4. Published form snapshots are immutable.
+- The NCR project reports 98.3% AUC across 368 engineered features. It uses pandas for data processing and supports real-time predictions.
 
 </details>
 
-## My working stack
+### Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,python,fastapi,supabase,postgres,git&amp;perline=10&amp;theme=dark" alt="TypeScript, React, Next.js, Tailwind, Node.js, Python, FastAPI, Supabase, PostgreSQL, Git">
-</p>
+TypeScript, React, Next.js, and Tailwind for interfaces. Python, Flask, FastAPI, Node.js, and Express for backend work. PostgreSQL and Supabase for storage.
+
+For data and ML: pandas, NumPy, Plotly, scikit-learn, XGBoost, and LightGBM.
 
 <details>
-<summary><strong>The full toolbox</strong></summary>
+<summary>Other tools</summary>
 <br>
 
-| Area | Stack |
-| :--- | :--- |
-| **Interfaces** | Next.js · React · TypeScript · JavaScript · Tailwind CSS · Radix UI |
-| **Services** | Node.js · Express · Python · Flask · FastAPI |
-| **Data** | PostgreSQL · Supabase · SQLAlchemy · pandas · NumPy · Plotly |
-| **Machine learning** | LightGBM · XGBoost · scikit-learn · spaCy · KeyBERT · Sentence Transformers |
-| **AI workflows** | LangChain · OpenAI · Gemini |
-
+JavaScript, Radix UI, SQLAlchemy, spaCy, KeyBERT, Sentence Transformers, LangChain, OpenAI, Gemini, Git, and GitHub.
 
 </details>
 
-## Behind the commits
-
-<!-- Keep your existing .github/workflows/profile-summary-cards.yml and generated files. -->
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Ahmed's GitHub activity" width="100%">
-</p>
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repositories by language" width="49%">
-  <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub statistics" width="49%">
-</p>
-
 <details>
-<summary><strong>When the commits happen</strong></summary>
+<summary>GitHub activity</summary>
 <br>
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Productive commit times" width="70%">
-</p>
+
+<!-- Generated by the existing .github/workflows/profile-summary-cards.yml. -->
+<img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" alt="GitHub activity">
+<img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" alt="Repositories by language">
+<img src="./profile-summary-card-output/github_dark/3-stats.svg" width="49%" alt="GitHub statistics">
+<img src="./profile-summary-card-output/github_dark/4-productive-time.svg" width="49%" alt="Commit times">
+
 </details>
 
-<br>
+---
 
-<a href="mailto:ahmedashrafyas@gmail.com"><img src="./assets/connect.svg" width="100%" alt="Have something in mind? Let's make it real. Email ahmedashrafyas@gmail.com"></a>
-
-<p align="center">
-  <a href="https://ahm-edashraf.github.io/portofolio/">Portfolio</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/ahmed-ashraf-5ab7bb334/">LinkedIn</a> &nbsp;·&nbsp;
-  Discord: <code>luhahmed</code>
-</p>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Ahm-edAshraf&amp;label=PROFILE%20VIEWS&amp;color=0f766e&amp;style=flat-square" alt="Profile views">
-</p>
+<sub>[ahmedashrafyas@gmail.com](mailto:ahmedashrafyas@gmail.com) · Discord: luhahmed</sub>
