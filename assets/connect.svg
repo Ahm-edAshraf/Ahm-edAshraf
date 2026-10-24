@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" fill="none" role="img" aria-labelledby="title">
+<title id="title">Let&#x27;s make it real — Email Ahmed</title><defs>
+<linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5EEAD4"/><stop offset=".48" stop-color="#78A6FF"/><stop offset="1" stop-color="#D8A4FF"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#6553D8" stop-opacity=".25"/><stop offset="1" stop-color="#6553D8" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#94A3B8" opacity=".13"/></pattern>
+</defs><style>
+text{font-family:Segoe UI,Arial,sans-serif}.mono{font-family:Consolas,monospace}
+.orbit{transform-origin:960px 232px;animation:spin 32s linear infinite}
+.reverse{animation-direction:reverse;animation-duration:48s}
+.float{animation:float 8s ease-in-out infinite}
+.pulse{animation:pulse 5s ease-in-out infinite}
+.flow{stroke-dasharray:5 15;animation:flow 5s linear infinite}
+.scan{animation:scan 9s ease-in-out infinite}
+.blink{animation:pulse 3s ease-in-out infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+@keyframes flow{to{stroke-dashoffset:-100}}
+@keyframes scan{0%,100%{transform:translateX(0);opacity:0}15%,85%{opacity:.6}50%{transform:translateX(900px)}}
+@media(prefers-reduced-motion:reduce){.orbit,.float,.pulse,.flow,.scan,.blink{animation:none!important}}
+</style><rect x=".5" y=".5" width="1199" height="189" rx="20" fill="#0C111D" stroke="#273044"/>
+<path class="flow" d="M0 155H160L195 120H310M890 120H1000L1040 80H1200" stroke="url(#spectrum)" stroke-opacity=".6"/>
+<text class="mono" x="600" y="49" text-anchor="middle" fill="#5EEAD4" font-size="12" letter-spacing="3">HAVE SOMETHING IN MIND?</text>
+<text x="600" y="108" text-anchor="middle" fill="#F1F5FC" font-size="40" font-weight="600" letter-spacing="-1">Let's make it real.</text>
+<text class="mono" x="600" y="149" text-anchor="middle" fill="#94A3B8" font-size="15">ahmedashrafyas@gmail.com <tspan fill="#5EEAD4">↗</tspan></text></svg>
